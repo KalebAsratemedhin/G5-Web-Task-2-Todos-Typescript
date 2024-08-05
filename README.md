@@ -17,7 +17,7 @@ You can run the app using liveserver or by opening the index.html file with a br
 
 ### Edit a todo
 ![alt text](<images/Screenshot from 2024-08-05 16-19-24.png>)
-![alt text](<images/Screenshot from 2024-08-05 16-19-47.png>)
 ### Delete a todo
 ![alt text](<images/Screenshot from 2024-08-05 16-20-05.png>)
 ![alt text](<images/Screenshot from 2024-08-05 16-20-10.png>)
+![alt text](<images/Screenshot from 2024-08-05 16-26-59.png>)
