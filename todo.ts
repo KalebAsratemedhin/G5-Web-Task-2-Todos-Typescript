@@ -41,7 +41,6 @@ function addTodo(todo: string | undefined){
 
 
 function editTodo(itemList: HTMLLIElement, itemEdit: HTMLInputElement, saveButton: HTMLButtonElement, editButton: HTMLButtonElement){
-    console.log(itemList.classList)
     
     itemList.classList.toggle("hide")
     itemEdit.classList.toggle("hide")

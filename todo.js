@@ -20,7 +20,6 @@ function addTodo(todo) {
     }
 }
 function editTodo(itemList, itemEdit, saveButton, editButton) {
-    console.log(itemList.classList);
     itemList.classList.toggle("hide");
     itemEdit.classList.toggle("hide");
     saveButton.classList.toggle("hide");
@@ -60,10 +59,7 @@ function showTodo(todo) {
     itemCheckBox.onclick = function () { return toggleComplete(todo); };
     itemList.classList.add("item-list");
     itemEdit.classList.add("item-edit");
-    // const div = document.createElement("div")
     item.append(itemCheckBox, itemList, itemEdit);
-    // div.classList.add("fields")
-    // item.appendChild(div)
     item.classList.add("todo-item");
     deleteButton.textContent = "delete";
     editButton.textContent = "edit";
@@ -72,9 +68,7 @@ function showTodo(todo) {
     editButton.onclick = function () { return editTodo(itemList, itemEdit, saveButton, editButton); };
     deleteButton.onclick = function () { return deleteTodo(index, item); };
     saveButton.onclick = function () { return updateTodo(todo, itemList, itemEdit, saveButton, editButton); };
-    buttons.appendChild(deleteButton);
-    buttons.appendChild(editButton);
-    buttons.appendChild(saveButton);
+    buttons.append(deleteButton, editButton, saveButton);
     buttons.classList.add("buttons");
     item.appendChild(buttons);
     if (todoBox)
