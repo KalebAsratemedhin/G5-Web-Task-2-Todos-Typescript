@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(209, 248, 192);
+}
+
+.hide {
+    display: none;
+}
+
+
+.todo-item{
+    border-radius: 3px; 
+    padding: 10px; 
+    height: 50px; 
+    width: 50%; 
+    box-shadow: 1px 1px 1px 1px grey;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 7px;
+    
+}
+
+.item-list{
+    margin-right: auto;
+    list-style: none; 
+    font-size: large;
+    padding: 1px;
+    height: 1em;
+}
+
+.item-edit{
+    margin-right: auto;
+    font-size: large;
+    padding: 1px;
+    height: 1em;
+    width: 70%;
+    
+}
+
+.add {
+    background-color: rgb(174, 221, 153);
+    border-radius: 2px;
+    width: 70px;
+    border: none;
+    box-shadow: 0.7px 0.7px 0.7px 0.7px grey;
+    height: 40px; width: 100px;
+    font-size: 1rem;
+}
+#search{
+    border-color: none; 
+    height: 30px; 
+    width: 50%;
+    padding: 5px;
+    font-size: 1rem;
+
+}
+.buttons{
+    display: flex;
+    margin-left: 4px;
+}
+.buttons button{
+    background-color: rgb(174, 221, 153);
+    border-radius: 2px;
+    width: 70px;
+    height: 20px;
+    border: none;
+    box-shadow: 0.7px 0.7px 0.7px 0.7px grey;
+
+}
+
+.buttons :hover{
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+
+.buttons :first-child{
+    margin-right: 8px;    
+}
+
+
+
+
+
+
